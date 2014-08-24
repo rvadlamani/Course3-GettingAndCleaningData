@@ -53,7 +53,7 @@ dataMelt <- melt(descrNames,id=c("activityID","activityName","subjectID"))
 
 
 #Cast the melted dataset according to  the average of each variable  
-#for each activity and each subjec 
+#for each activity and each subject 
 mean_data <- dcast(dataMelt,activityID + activityName + subjectID ~ variable,mean) 
      
 ## Create a file with the new tidy dataset 
