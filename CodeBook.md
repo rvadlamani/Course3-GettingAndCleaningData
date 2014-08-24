@@ -1,5 +1,4 @@
-
-?Feature Vector variables:
+Feature Vector variables:
 
 mean() : mean values of multiple measurements of the original variables. Type: Real number
 
